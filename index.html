@@ -20,7 +20,7 @@
         </nav>
     </header>
     <main>
-        <div id="app" class="container">
+        <div id="app-characters" class="container">
             <div class="row">
                 <div class="col-12">
                     <h1>Characters</h1>
@@ -31,6 +31,19 @@
                 </div>
             </div>
             <div class="row" id="characters">
+
+            </div>
+        </div>
+        <div id="app-planets" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Planets</h1>
+                    <button type="button" class="btn btn-warning"
+                        onclick="app.planetsController.previous()">Previous</button>
+                    <button type="button" class="btn btn-primary" onclick="app.planetsController.next()">Next</button>
+                </div>
+            </div>
+            <div class="row" id="planets">
 
             </div>
         </div>
